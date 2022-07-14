@@ -1,0 +1,17 @@
+
+{
+    "sagemaker": {
+        "EcrRepoName": "wandb-containers",
+        "OutputDataConfig": {
+            "S3OutputPath": "s3://gianpo/wandb_launch_output/"
+        },
+        "ResourceConfig": {
+            "InstanceCount": 1,
+            "InstanceType": "ml.t3.medium"
+        },
+        "StoppingCondition": {
+            "MaxRuntimeInSeconds": 96400
+        },
+        "RoleArn": "arn:aws:iam::825935527263:role/service-role/AmazonSageMaker-ExecutionRole-endtoendml"
+    }
+}

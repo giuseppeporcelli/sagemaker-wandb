@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.10.102-99.473.amzn2.x86_64-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-07-14T14:05:41.694662",
+    "startedAt": "2022-07-14T14:05:40.169608",
+    "docker": null,
+    "cpu_count": 2,
+    "cuda": "11.0.228",
+    "args": [],
+    "state": "running",
+    "program": "/home/ec2-user/SageMaker/sagemaker-wandb/main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/giuseppeporcelli/sagemaker-wandb.git",
+        "commit": "6f083c15e3697e6a7c8d27ba209c4e99f74686ac"
+    },
+    "email": null,
+    "root": "/home/ec2-user/SageMaker/sagemaker-wandb",
+    "host": "ip-172-16-82-202.eu-west-1.compute.internal",
+    "username": "ec2-user",
+    "executable": "/home/ec2-user/anaconda3/envs/python3/bin/python"
+}
